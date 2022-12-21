@@ -1,0 +1,35 @@
+.App{
+  width: 30rem;
+  height: 30rem;
+  background-color: gold;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.App input{
+  border: unset;
+  padding: 1rem;
+  outline: unset;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.App button{
+  padding: 1.2rem;
+  border: unset;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.App .controller{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+}
